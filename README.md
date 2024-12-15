@@ -20,7 +20,7 @@ To use this program, you will need a C++ compiler and `CMake` installed.
    ```bash  
    git clone [https://github.com/medfeex/Sort.git]  
 2. Navigate to the project directory:  
-   cd sorting-program  
+   cd .../Sort 
 3. Build the project using CMake: 
    mkdir build  
    cd build  
@@ -47,7 +47,7 @@ Charlie 30
 Eve 22  
 
 Run the program:  
-./sorting_program
+./Sort
 
 After execution, the sorted data will be written to:  
 output_int.txt for sorted integers.  
