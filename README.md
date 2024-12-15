@@ -1,8 +1,8 @@
-#Sort Program
+##Sort Program
 
 This program sorts integers and `Person` objects using the merge sort algorithm. It reads data from text files, sorts them, and then writes the sorted data back to new text files.
 
-## Description
+### Description
 
 The program implements the merge sort algorithm to sort:
 - A list of integers stored in `input_int.txt`
@@ -10,7 +10,7 @@ The program implements the merge sort algorithm to sort:
 
 After sorting, the results are written to `output_int.txt` for integers and `output_person.txt` for persons.
 
-## Installation
+### Installation
 
 To use this program, you will need a C++ compiler and `CMake` installed.
 
@@ -27,7 +27,7 @@ To use this program, you will need a C++ compiler and `CMake` installed.
    cmake ..
    make
    
-### Usage:
+## Usage:
 
 Prepare the input files:
 input_int.txt should contain a list of integers, one per line.
