@@ -1,8 +1,8 @@
-##Sort Program
+# Sort Program
 
 This program sorts integers and `Person` objects using the merge sort algorithm. It reads data from text files, sorts them, and then writes the sorted data back to new text files.
 
-### Description
+## Description
 
 The program implements the merge sort algorithm to sort:
 - A list of integers stored in `input_int.txt`
